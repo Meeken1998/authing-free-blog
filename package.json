@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "authing-js-sdk": "^3.3.0"
+  }
+}
