@@ -11,7 +11,7 @@ process.on("unhandledRejection", error => {
 const authBlog = () => {
   authing = new Authing({
     userPoolId: "5def3e2a9d0df4ddca6f3f2a",
-    secret: "6623a58ebdf87847d37942cc72392c7e"
+    secret: "" //your_secret
   })
 }
 
@@ -98,7 +98,7 @@ const getMainList = async (isUpdate = false) => {
   try {
     let res = await authing.login({
       email: "78071836@qq.com",
-      password: "MEEKENSHD78"
+      password: "" //your_pwd
     })
     mainInfo = res
     if (
@@ -121,8 +121,8 @@ const start = async () => {
   authBlog()
   await getMainList()
   //   await addArticle("今天是个好日子啊", "测试内容", ["卢本伟牛逼"])
-//   await deleteArticle("1575964972956")
-//   await getArticle("5def4ffc9d0df431a66fccf0")
+  //   await deleteArticle("1575964972956")
+  //   await getArticle("5def4ffc9d0df431a66fccf0")
 }
 
 start()
