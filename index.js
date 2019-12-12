@@ -1,4 +1,4 @@
-"use strict"
+"use strict" 
 
 const Authing = require("authing-js-sdk")
 let authing, mainInfo, articles
