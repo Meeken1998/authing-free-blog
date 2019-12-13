@@ -1,5 +1,11 @@
 "use strict" 
 
+/*
+================================
+= 白嫖 authing 搭建博客
+================================
+*/
+
 const Authing = require("authing-js-sdk")
 let authing, mainInfo, articles
 
