@@ -16,7 +16,7 @@ process.on("unhandledRejection", error => {
 
 const authBlog = () => {
   authing = new Authing({
-    userPoolId: "5def3e2a9d0df4ddca6f3f2a",
+    userPoolId: "",
     secret: "" //your_secret
   })
 }
